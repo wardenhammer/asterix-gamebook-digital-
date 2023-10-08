@@ -1,15 +1,7 @@
 import random
-
-
-class Hero:
-    def __init__(self, fightingfitness, charm, skill):
-        self.fightingfitness = fightingfitness
-        self.charm = charm
-        self.skill = skill
-
-class Enemy:
-    def __init__(self, fightingfitness):
-        self.fightingfitness = fightingfitness
+# Import my own classes
+from hero import Hero
+from enemy import Enemy
 
 asterix = Hero(15,15,15)
 legionaire = Enemy(12)
