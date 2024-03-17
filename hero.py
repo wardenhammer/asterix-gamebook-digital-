@@ -8,6 +8,12 @@ class Hero:
     @property
     def fighting_fitness(self):
         return self.fighting_fitness
+    @property
+    def charm(self):
+        return self.charm
+    @property
+    def skill(self):
+        return self.skill
     
     @property
     def sestertii(self):
