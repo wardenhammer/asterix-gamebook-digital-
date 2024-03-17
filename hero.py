@@ -1,5 +1,10 @@
 class Hero:
-    def __init__(self, fightingfitness, charm, skill):
-        self.fightingfitness = fightingfitness
+    def __init__(self, fighting_fitness, charm, skill):
+        self.fighting_fitness = fighting_fitness
         self.charm = charm
         self.skill = skill
+
+    @property
+    def fighting_fitness(self):
+        return self.fighting_fitness
+    
