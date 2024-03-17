@@ -7,25 +7,25 @@ class Hero:
 
     @property
     def fighting_fitness(self):
-        return self.fighting_fitness
+        return self._fighting_fitness
     @fighting_fitness.setter
     def fighting_fitness(self, value):
         self._fighting_fitness = value
     @property
     def charm(self):
-        return self.charm
+        return self._charm
     @charm.setter
     def charm(self, value):
         self._charm = value
     @property
     def skill(self):
-        return self.skill
+        return self._skill
     @skill.setter
     def skill(self, value):
         self._skill = value
     @property
     def sestertii(self):
-        return self.sestertii
+        return self._sestertii
     @sestertii.setter
     def sestertii(self, value):
         self._sestertii = value

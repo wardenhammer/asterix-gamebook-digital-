@@ -17,6 +17,6 @@ while(asterix.fighting_fitness > 0 and legionaire.fighting_fitness > 0):
     print("Legionire hits Asterix")
     diceRoll = random.randint(1, 6)
     print(f"dice={diceRoll}")
-    asterix.fighting_fitness = asterix.fighting_Sfitness - diceRoll
+    asterix.fighting_fitness = asterix.fighting_fitness - diceRoll
     print(vars(asterix))
     print(vars(legionaire))
