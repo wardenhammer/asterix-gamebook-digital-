@@ -3,8 +3,8 @@ import random
 from hero import Hero
 from enemy import Enemy
 
-asterix = Hero(15,15,15)
-legionaire = Enemy(12)
+asterix = Hero(fighting_fitness=15,charm=15,skill=15)
+legionaire = Enemy(fighting_fitness=12)
 
 # Start combat
 while(asterix.fighting_fitness > 0 and legionaire.fighting_fitness > 0):
