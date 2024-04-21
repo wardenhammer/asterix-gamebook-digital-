@@ -7,7 +7,7 @@ import tkinter as tk # Used to create a GUI
 # Create Window
 window = tk.Tk()
 window.geometry("400x300")
-window.title("Give me a name!")
+window.title("Create your stats")
 
 
 def roll_hero():
