@@ -21,6 +21,11 @@ def roll_hero():
         skill=skill+10,
         charm=charm+10)
 
+########
+# MAIN #
+########
+# Display the window
+window.mainloop()
 # Create Asterix with random properties
 asterix = roll_hero()
 print(f'Asterix stats are FF:{asterix.fighting_fitness} Skill:{asterix.skill} Charm:{asterix.charm}')
