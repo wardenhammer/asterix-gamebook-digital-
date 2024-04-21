@@ -9,6 +9,9 @@ window = tk.Tk()
 window.geometry("400x300")
 window.title("Create your stats")
 
+# Add a Generate Hero Button
+Btn = tk.Button(text="Give me a name", font=10, width=7)
+
 
 def roll_hero():
     """Rolls the stats for a hero. Each stat has a base of 10. 
