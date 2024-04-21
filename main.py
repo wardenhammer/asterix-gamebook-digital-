@@ -6,11 +6,25 @@ import tkinter as tk # Used to create a GUI
 
 # Create Window
 window = tk.Tk()
-window.geometry("400x300")
 window.title("Give me a name!")
+window.geometry("400x300")
+
+# Create a Frame
+CharacterCreationFrame = tk.Frame(window)
+
+# Labels for the character stats
+hero_f_f_label = tk.Label(CharacterCreationFrame,
+                       text=f"Hero FF:0",
+                       font=10)
+hero_f_f_label.pack(pady=20)
 
 # Add a Generate Hero Button
-Btn = tk.Button(text="Give me a name", font=10, width=7)
+CreateHeroBtn = tk.Button(CharacterCreationFrame,
+                          text="Give me a name", font=10, width=7)
+CreateHeroBtn.pack(pady=50)
+
+# Draw the character creation frame
+CharacterCreationFrame.pack()
 
 
 def roll_hero():
