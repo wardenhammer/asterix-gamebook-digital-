@@ -2,6 +2,13 @@
 
 from hero import Hero
 import random
+import tkinter as tk # Used to create a GUI
+
+# Create Window
+window = tk.Tk()
+window.geometry("400x300")
+window.title("Give me a name!")
+
 
 def roll_hero():
     """Rolls the stats for a hero. Each stat has a base of 10. 
